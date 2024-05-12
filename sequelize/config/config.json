@@ -1,0 +1,24 @@
+{
+  "development": {
+    
+      "username": "avnadmin",
+      "password": "AVNS_Vmne3XujMKC87-p6KMM",
+      "host": "public-pg-f64fddc-ak4032777-4df8.l.aivencloud.com",
+      "port": 12181,
+      "database": "defaultdb",
+      "dialect": "postgres",
+      "ssl":true,
+   "dialectOptions":{
+      "ssl":{
+         "require":true,
+         "rejectUnauthorized": false
+      }
+   }
+     
+  },
+  "test": {
+  },
+  "production": {
+   
+  }
+}
