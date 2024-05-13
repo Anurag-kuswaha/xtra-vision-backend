@@ -1,6 +1,6 @@
 
 const db = require('../sequelize/models');
-const { getUserDetailsFromDB } = require('./userService.js')
+const { getUserDetailsFromDB } = require('../services/userService')
 const { Op } = require('sequelize');
 var randomstring = require("randomstring");
 const getListOfMeetingtService = async (pageSize, start, meetingType, email) => {

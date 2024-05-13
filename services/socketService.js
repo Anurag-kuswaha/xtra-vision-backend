@@ -237,7 +237,7 @@ const addParticipantToMeeting = async (ws, meetingId, participantName) => {
         }
     }
     )
-    cachedListOfMeeting[meetingId].participant = rawActiveParticipantListForDB
+    cachedListOfMeeting[meetingId].participant = rawActiveParticipantListForDB;
     let newMeetingDetails = {
         participant: newListOfParticipant,
     }
