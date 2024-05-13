@@ -33,3 +33,5 @@ Install project with npm
     ├── socketService.js
     └── userService.js
 
+<img width="489" alt="Screenshot 2024-05-13 at 10 52 53" src="https://github.com/Anurag-kuswaha/xtra-vision-backend/assets/73064862/012ba0ab-f929-45cc-a5b7-090c1ee9bbd8">
+
