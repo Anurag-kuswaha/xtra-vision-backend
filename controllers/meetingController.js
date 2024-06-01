@@ -1,4 +1,4 @@
-const { getListOfMeetingtService, createMeetingService, getMeetingDetailsService } = require('../Services/meetingService')
+const { getListOfMeetingtService, createMeetingService, getMeetingDetailsService } = require('../services/meetingService')
 
 const getListOfMeeting = async (req, res) => {
     let pageSize = req.query.pSize ? Number(req.query.pSize) : 10;
