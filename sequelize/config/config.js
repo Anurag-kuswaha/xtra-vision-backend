@@ -7,7 +7,7 @@ const database =  {
       "port": process.env.DB_PORT,
       "database":process.env.DB_DATABASE,
       "dialect": process.env.DB_DIALECT,
-      dialectModule: pg,
+      dialectModule: require('pg'),
       "ssl": true,
       "dialectOptions": {
          "ssl": {
@@ -24,7 +24,7 @@ const database =  {
       "host": process.env.DB_HOST,
       "port": process.env.DB_PORT,
       "database":process.env.DB_DATABASE,
-      dialectModule: pg,
+      dialectModule: require('pg'),
       "dialect": process.env.DB_DIALECT,
       "ssl": true,
       "dialectOptions": {
