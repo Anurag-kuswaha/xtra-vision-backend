@@ -37,5 +37,6 @@ try {
 }
 catch (e) {
     console.log('error is ', e);
+    process.exit(-1);
 }
 module.exports = app
