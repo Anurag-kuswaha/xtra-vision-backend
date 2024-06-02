@@ -1,3 +1,5 @@
+# About
+### Clone of Google Meet and this is backend Backend Server developed using nodejs, express,  posgtgres db, express websockets and sequelize ORM.
 
 ## Installation
 
