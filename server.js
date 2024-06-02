@@ -9,7 +9,9 @@ const expressWs = require('express-ws');
 expressWs(app);
 const db = require("./sequelize/models");
 const webSocketRoutes = require('./socketRoutes');
+let serverListen;
 try {
+    if(!serverListen){
     app.use(cors());
     app.use(express.json());
     //initialize sequelize
@@ -31,9 +33,10 @@ try {
         next(err);
     });
     const port = process.env.port || 3001;
-    app.listen(port, (e) => {
+    serverListen = app.listen(port, (e) => {
         console.log(`Backend server is running on port ${port}`)
     })
+}
 }
 catch (e) {
     console.log('error is ', e);
